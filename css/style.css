@@ -101,7 +101,7 @@
     }
 
     .logo-col {
-        line-height: 100px;
+        padding-top: 20px;
     }
 
     .logo-col>figure {
@@ -120,6 +120,7 @@
     }
 
     .reparti-col {
+        font-weight: bold;
         line-height: 100px;
         justify-content: space-around;
         align-items: center;
@@ -249,7 +250,7 @@
     }
 
     .footer-row {
-        align-items: flex-end;
+        align-items: center;
         display: flex;
         flex-basis: 30%;
         height: 100px;
