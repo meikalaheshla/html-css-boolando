@@ -198,3 +198,16 @@
     .discount-label {
         z-index: 1;
     }
+
+    /* figcaption*/
+    .brand {}
+
+    .model-name {}
+
+    .sales-price {
+        color: red;
+    }
+
+    .normal-price {
+        text-decoration: line-through;
+    }
