@@ -67,7 +67,8 @@
         top: 0;
         left: 0;
         height: 100px;
-        margin: 0 auto
+        margin: 0 auto;
+        z-index: 2;
     }
 
     #navbar ul {
@@ -122,6 +123,7 @@
         display: flex;
         min-height: 600px;
         justify-content: space-around;
+        margin-bottom: 50px;
 
     }
 
@@ -156,6 +158,18 @@
         line-height: 25px;
         text-align: center;
 
+    }
+
+    .sostenibility-label {
+        position: absolute;
+        left: 55px;
+        bottom: 50px;
+        background-color: #008000;
+        color: white;
+        height: 25px;
+        width: 100px;
+        padding: 2px;
+        text-align: center;
     }
 
     .heart-box {
@@ -199,7 +213,12 @@
         z-index: 1;
     }
 
-    /* figcaption*/
+    #left-label {
+        left: 0
+    }
+
+
+    /* product info*/
     .brand {}
 
     .model-name {}
