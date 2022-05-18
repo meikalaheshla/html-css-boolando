@@ -120,14 +120,14 @@
     .row {
 
         display: flex;
-        height: 600px;
+        min-height: 600px;
         justify-content: space-around;
 
     }
 
     article {
         cursor: pointer;
-        height: 100%;
+        height: 600px;
         position: relative;
 
     }
@@ -183,7 +183,16 @@
         display: block;
     }
 
+    .heart {
+        color: black;
+    }
 
+
+
+    .heart-box:hover .favourite {
+        color: #fd0606;
+        display: block;
+    }
 
     .heart-box,
     .discount-label {
